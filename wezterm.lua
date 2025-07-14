@@ -14,7 +14,9 @@ config.enable_tab_bar = false
 
 config.window_decorations = "RESIZE"
 
-config.window_background_opacity = 0.90
+config.color_scheme = "rose-pine"
+
+config.window_background_opacity = 0.95
 
 config.macos_window_background_blur = 20
 
