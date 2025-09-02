@@ -16,7 +16,7 @@ config.window_decorations = "RESIZE"
 
 config.colors = {
 	foreground = "#D8DEE9", -- main text
-	background = "#242933", -- nordic background (darker than stock nord)
+	background = "#1A1E26", -- almost black Nordic background
 
 	cursor_bg = "#D8DEE9",
 	cursor_border = "#D8DEE9",
@@ -75,7 +75,7 @@ config.colors = {
 	},
 }
 
-config.window_background_opacity = 0.90
+config.window_background_opacity = 0.92
 
 config.macos_window_background_blur = 10
 
@@ -84,7 +84,7 @@ config.font = wezterm.font("FiraCode Nerd Font", { weight = "Medium" })
 config.window_padding = {
 	left = 0,
 	right = 0,
-	top = 0,
+	top = 15,
 	bottom = 0,
 }
 
