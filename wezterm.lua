@@ -8,7 +8,7 @@ config.initial_cols = 120
 config.initial_rows = 28
 
 config.font_size = 22
-config.line_height = 1
+config.line_height = 1.15
 
 config.enable_tab_bar = false
 
@@ -16,10 +16,10 @@ config.window_decorations = "RESIZE"
 
 -- config.color_scheme = "Oxocarbon Dark (Gogh)"
 -- config.color_scheme = 'rose-pine'
-config.color_scheme = "rose-pine"
-config.colors = {
-	background = "#0a0a0a",
-}
+config.color_scheme = 'carbonfox'
+-- config.colors = {
+-- 	background = "#0a0a0a",
+-- }
 
 -- config.colors = {
 -- 	foreground = "#cccccc",
@@ -55,12 +55,12 @@ config.colors = {
 -- 	},
 -- }
 
-config.window_background_opacity = 0.92
+config.window_background_opacity = 1
 
 config.macos_window_background_blur = 0
 
--- config.font = wezterm.font("FiraCode Nerd Font")
-config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Medium" })
+config.font = wezterm.font("FiraCode Nerd Font", { weight = "Medium" })
+-- config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Medium" })
 -- config.font = wezterm.font("Hack Nerd Font Mono")
 -- config.font = wezterm.font("UbuntuMono Nerd Font")
 -- config.font = wezterm.font("MesloLGM Nerd Font")
@@ -70,8 +70,8 @@ config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Medium" })
 -- config.font = wezterm.font("DepartureMono Nerd Font")
 
 config.window_padding = {
-	left = 10,
-	right = 10,
+	left = 0,
+	right = 0,
 	top = 10,
 	bottom = 0,
 }
